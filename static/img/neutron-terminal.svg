@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 576 384" width="576" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="120" rows="30"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 7710ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+11.193%{transform:translateY(-544px)}
+13.256%{transform:translateY(-1088px)}
+15.344%{transform:translateY(-1632px)}
+17.523%{transform:translateY(-2176px)}
+19.481%{transform:translateY(-2720px)}
+20.013%{transform:translateY(-3264px)}
+22.490%{transform:translateY(-3808px)}
+25.798%{transform:translateY(-4352px)}
+64.176%{transform:translateY(-4896px)}
+64.189%{transform:translateY(-5440px)}
+64.202%{transform:translateY(-5984px)}
+64.501%{transform:translateY(-6528px)}
+87.030%{transform:translateY(-7072px)}
+100.000%{transform:translateY(-7072px)}
+            }
+
+            #screen_view {
+                animation-duration: 7710ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* gjm8 color theme (source: https://terminal.sexy/) */
+            .foreground {fill: #c5c5c5;}
+            .background {fill: #1f1e29;}
+            .color0 {fill: #1c1c1c;}
+            .color1 {fill: #ff005b;}
+            .color2 {fill: #00ff00;}
+            .color3 {fill: #00ff00;}
+            .color4 {fill: #048ac7;}
+            .color5 {fill: #833c9f;}
+            .color6 {fill: #0ac1cd;}
+            .color7 {fill: #e5e5e5;}
+            .color8 {fill: #666666;}
+            .color9 {fill: #ff005b;}
+            .color10 {fill: #eeeeee;}
+            .color11 {fill: #00ff00;}
+            .color12 {fill: #048ac7;}
+            .color13 {fill: #833c9f;}
+            .color14 {fill: #0ac1cd;}
+            .color15 {fill: #e5e5e5;}
+        </style>
+    </defs>
+    <svg id="screen" width="576" height="510" viewBox="0 0 576 510" preserveAspectRatio="xMidYMin slice">
+        <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="232" font-weight="bold" class="color10">thiagodesouza@NEUTRON-DEVELOP</text><text x="232" textLength="8" class="foreground">:</text><text x="240" textLength="8" font-weight="bold" class="color12">~</text><text x="248" textLength="16" class="foreground">$ </text><text x="264" textLength="8" class="background"> </text></g><g id="g2"><text x="0" textLength="232" font-weight="bold" class="color10">thiagodesouza@NEUTRON-DEVELOP</text><text x="232" textLength="8" class="foreground">:</text><text x="240" textLength="8" font-weight="bold" class="color12">~</text><text x="248" textLength="24" class="foreground">$ n</text><text x="272" textLength="8" class="background"> </text></g><g id="g3"><text x="0" textLength="232" font-weight="bold" class="color10">thiagodesouza@NEUTRON-DEVELOP</text><text x="232" textLength="8" class="foreground">:</text><text x="240" textLength="8" font-weight="bold" class="color12">~</text><text x="248" textLength="32" class="foreground">$ ne</text><text x="280" textLength="8" class="background"> </text></g><g id="g4"><text x="0" textLength="232" font-weight="bold" class="color10">thiagodesouza@NEUTRON-DEVELOP</text><text x="232" textLength="8" class="foreground">:</text><text x="240" textLength="8" font-weight="bold" class="color12">~</text><text x="248" textLength="40" class="foreground">$ neu</text><text x="288" textLength="8" class="background"> </text></g><g id="g5"><text x="0" textLength="232" font-weight="bold" class="color10">thiagodesouza@NEUTRON-DEVELOP</text><text x="232" textLength="8" class="foreground">:</text><text x="240" textLength="8" font-weight="bold" class="color12">~</text><text x="248" textLength="48" class="foreground">$ neut</text><text x="296" textLength="8" class="background"> </text></g><g id="g6"><text x="0" textLength="232" font-weight="bold" class="color10">thiagodesouza@NEUTRON-DEVELOP</text><text x="232" textLength="8" class="foreground">:</text><text x="240" textLength="8" font-weight="bold" class="color12">~</text><text x="248" textLength="56" class="foreground">$ neutr</text><text x="304" textLength="8" class="background"> </text></g><g id="g7"><text x="0" textLength="232" font-weight="bold" class="color10">thiagodesouza@NEUTRON-DEVELOP</text><text x="232" textLength="8" class="foreground">:</text><text x="240" textLength="8" font-weight="bold" class="color12">~</text><text x="248" textLength="64" class="foreground">$ neutro</text><text x="312" textLength="8" class="background"> </text></g><g id="g8"><text x="0" textLength="232" font-weight="bold" class="color10">thiagodesouza@NEUTRON-DEVELOP</text><text x="232" textLength="8" class="foreground">:</text><text x="240" textLength="8" font-weight="bold" class="color12">~</text><text x="248" textLength="72" class="foreground">$ neutron</text><text x="320" textLength="8" class="background"> </text></g><g id="g9"><text x="0" textLength="232" font-weight="bold" class="color10">thiagodesouza@NEUTRON-DEVELOP</text><text x="232" textLength="8" class="foreground">:</text><text x="240" textLength="8" font-weight="bold" class="color12">~</text><text x="248" textLength="72" class="foreground">$ neutron</text></g><g id="g10"><text x="0" textLength="8" class="background"> </text></g><g id="g11"><text x="0" textLength="504" font-weight="bold" class="color8">---------------------------------------------------------------</text></g><g id="g12"><text x="0" textLength="400" class="foreground"> _   _            _                       _ ____  </text></g><g id="g13"><text x="0" textLength="400" class="foreground">|:\ | | ___ _   _|:|_ _ __ ___  _ __     | /:___| </text></g><g id="g14"><text x="0" textLength="400" class="foreground">|  \| |/ _ \ | | | __| '__/ _ \| '_ \ _  | \___ \ </text></g><g id="g15"><text x="0" textLength="400" class="foreground">| |\  |  __/ |_| | |_| | | (_) | | | |:|_| |___) |</text></g><g id="g16"><text x="0" textLength="400" class="foreground">|_| \_|\___|\__,_|\__|_|  \___/|_| |_|\___/|____/ </text></g><g id="g17"><text x="0" textLength="392" class="color2">React &amp; React Native Flux Architecture CLI vX.Y.Z</text></g><g id="g18"><text x="0" textLength="168" class="foreground">For more information:</text></g><g id="g19"><text x="0" textLength="200" class="color6">https://www.neutronjs.com</text></g><g id="g20"><text x="0" textLength="232" font-weight="bold" class="color10">thiagodesouza@NEUTRON-DEVELOP</text><text x="232" textLength="8" class="foreground">:</text><text x="240" textLength="8" font-weight="bold" class="color12">~</text><text x="248" textLength="48" class="foreground">$ clear</text></g></defs><g id="screen_view"><g><rect x="264" y="0" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="0"/></g><g><rect x="272" y="544" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="544"/></g><g><rect x="280" y="1088" width="8" height="17" class="foreground"/><use xlink:href="#g3" y="1088"/></g><g><rect x="288" y="1632" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="1632"/></g><g><rect x="296" y="2176" width="8" height="17" class="foreground"/><use xlink:href="#g5" y="2176"/></g><g><rect x="304" y="2720" width="8" height="17" class="foreground"/><use xlink:href="#g6" y="2720"/></g><g><rect x="312" y="3264" width="8" height="17" class="foreground"/><use xlink:href="#g7" y="3264"/></g><g><rect x="320" y="3808" width="8" height="17" class="foreground"/><use xlink:href="#g8" y="3808"/></g><g><use xlink:href="#g9" y="4352"/><rect x="0" y="4369" width="8" height="17" class="foreground"/><use xlink:href="#g10" y="4369"/></g><g><use xlink:href="#g9" y="4896"/><rect x="0" y="4930" width="8" height="17" class="foreground"/><use xlink:href="#g10" y="4930"/></g><g><use xlink:href="#g9" y="5440"/><use xlink:href="#g11" y="5474"/><use xlink:href="#g12" y="5491"/><use xlink:href="#g13" y="5508"/><use xlink:href="#g14" y="5525"/><use xlink:href="#g15" y="5542"/><use xlink:href="#g16" y="5559"/><use xlink:href="#g17" y="5593"/><use xlink:href="#g11" y="5627"/><use xlink:href="#g18" y="5661"/><rect x="0" y="5678" width="8" height="17" class="foreground"/><use xlink:href="#g10" y="5678"/></g><g><use xlink:href="#g9" y="5984"/><use xlink:href="#g11" y="6018"/><use xlink:href="#g12" y="6035"/><use xlink:href="#g13" y="6052"/><use xlink:href="#g14" y="6069"/><use xlink:href="#g15" y="6086"/><use xlink:href="#g16" y="6103"/><use xlink:href="#g17" y="6137"/><use xlink:href="#g11" y="6171"/><use xlink:href="#g18" y="6205"/><use xlink:href="#g19" y="6222"/><use xlink:href="#g11" y="6256"/><rect x="0" y="6273" width="8" height="17" class="foreground"/><use xlink:href="#g10" y="6273"/></g><g><use xlink:href="#g9" y="6528"/><use xlink:href="#g11" y="6562"/><use xlink:href="#g12" y="6579"/><use xlink:href="#g13" y="6596"/><use xlink:href="#g14" y="6613"/><use xlink:href="#g15" y="6630"/><use xlink:href="#g16" y="6647"/><use xlink:href="#g17" y="6681"/><use xlink:href="#g11" y="6715"/><use xlink:href="#g18" y="6749"/><use xlink:href="#g19" y="6766"/><use xlink:href="#g11" y="6800"/><rect x="264" y="6817" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="6817"/></g><g><use xlink:href="#g9" y="7072"/><use xlink:href="#g11" y="7106"/><use xlink:href="#g12" y="7123"/><use xlink:href="#g13" y="7140"/><use xlink:href="#g14" y="7157"/><use xlink:href="#g15" y="7174"/><use xlink:href="#g16" y="7191"/><use xlink:href="#g17" y="7225"/><use xlink:href="#g11" y="7259"/><use xlink:href="#g18" y="7293"/><use xlink:href="#g19" y="7310"/><use xlink:href="#g11" y="7344"/><use xlink:href="#g20" y="7361"/><rect x="0" y="7378" width="8" height="17" class="foreground"/><use xlink:href="#g10" y="7378"/></g></g></svg>
+</svg>
