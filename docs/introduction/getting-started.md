@@ -8,36 +8,35 @@ Neutron is a <b>Command Line Interface</b> developed to help developers create n
 
 This page will help you install and build your first react project using Neutron JS and it's very important to explain that to work with mobile, you must have installed the `expo-cli` in your development environment.
 
+#### Why Expo for React Native?
 We chose <a href="https://expo.io/tools" target="_blank">Expo</a> due to maturity that it's reached and because it's not necessary to configure and install SDKs, emulators and other common requirements for iOS and Android development.
 
-To learn more about `expo-cli`, check: <a href="https://expo.io/learn" target="_blank">https://expo.io/learn</a>.
+> To learn more about `expo-cli`, check: <a href="https://expo.io/learn" target="_blank">Get Started With Expo</a>.
+
 
 ## Installation
 
-This is simple and easy because Neutron JS is available as a package in <a href="https://www.npmjs.com/package/@neutron.js/cli" target="_blank">Node Package Manager</a>, so you can enter in your terminal with:
+This is simple and easy because Neutron JS is available as a package in <a href="https://www.npmjs.com/package/@neutronjs/cli" target="_blank">Node Package Manager</a>. You should write your terminal:
 
 ```shell
-yarn global add @neutron.js/cli
+yarn global add @neutronjs/cli
 ```
 
-To confirm the installation, you can write `neutron` into your terminal. The result in your terminal will be just like this:
+After installation, you can confirm using `neutron` on your terminal or `neutron -h` to check all available commands:
 
-```text
----------------------------------------------------------------
- _   _            _                       _ ____
-|:\ | | ___ _   _|:|_ _ __ ___  _ __     | /:___|
-|  \| |/ _ \ | | | __| '__/ _ \| '_ \ _  | \___ \
-| |\  |  __/ |_| | |_| | | (_) | | | |:|_| |___) |
-|_| \_|\___|\__,_|\__|_|  \___/|_| |_|\___/|____/
+```
+Starts With:
+  neutron create           Create new project with React
 
-React & React Native Flux Architecture CLI vX.Y.Z
+Commands:
+  neutron add:component    Add new component files
+  neutron add:duck         Add new duck file
+  neutron add:page         Add new page files
+  neutron add:saga         Add new saga and duck files
 
----------------------------------------------------------------
-
-For more information:
-https://www.neutronjs.com
-
----------------------------------------------------------------
+Utils:
+  neutron -h               Show help information
+  neutron -v               Output the version number
 ```
 
 ## Creating a new project

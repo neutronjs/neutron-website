@@ -9,10 +9,10 @@ module.exports = {
   docs: {
     Introduction: ["introduction/getting-started"],
     Features: [
-      "commands/add-component",
-      "commands/add-duck",
-      "commands/add-page",
-      "commands/add-saga"
+      "features/add-component",
+      "features/add-duck",
+      "features/add-page",
+      "features/add-saga"
     ],
     Community: ["community/contributing"]
   }

@@ -7,8 +7,8 @@
 
 module.exports = {
   title: "Neutron JS",
-  tagline: "The best tool to speed up your react project!",
-  url: "https://your-docusaurus-test-site.com",
+  tagline: "The best tool to speed up your react project! 🚀",
+  url: "https://www.neutronjs.com/",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "neutronjs",
@@ -18,16 +18,16 @@ module.exports = {
       title: "Neutron JS",
       logo: {
         alt: "Neutron Logo",
-        src: "img/logo.svg"
+        src: "img/logo-white.svg"
       },
       links: [
         {
           to: "docs/introduction/getting-started",
-          label: "Docs",
+          label: "Documentation",
           position: "left"
         },
         {
-          href: "https://www.npmjs.com/package/@neutron.js/cli",
+          href: "https://www.npmjs.com/package/@neutronjs/cli",
           label: "Npm",
           position: "right"
         },
@@ -55,7 +55,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js")
         },
         theme: {
-          customCss: require.resolve("./src/css/styles.css")
+          customCss: require.resolve("./src/styles/global.css")
         }
       }
     ]

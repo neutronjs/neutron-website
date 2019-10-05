@@ -1,27 +1,3 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
-/* :root {
-  --ifm-color-primary: #0078D4;
-  --ifm-color-primary-dark: #005494;
-  --ifm-color-primary-darker: #005494;
-  --ifm-color-primary-darkest: #003054;
-  --ifm-color-primary-light: #0069BA;
-  --ifm-color-primary-lighter: #0069BA;
-  --ifm-color-primary-lightest: #007FE0;
-} */
-
 /* cyrillic-ext */
 @font-face {
   font-family: "Ubuntu";
@@ -94,13 +70,18 @@
 }
 
 /* your custom css */
-*,
 body {
   font-family: "Ubuntu", sans-serif;
+  background-color: #eee;
 }
 
-body {
-  background-color: #eee;
+pre,
+pre button {
+  background-color: #1f1e29 !important;
+}
+
+pre {
+  white-space: pre !important;
 }
 
 a,
@@ -110,7 +91,6 @@ a:hover {
 
 .navbar {
   background-color: #14131a;
-  border-bottom: 2px solid #eeeeee;
 }
 .navbar__brand strong {
   color: #eeeeee;
@@ -162,7 +142,45 @@ a:hover {
   background-repeat: no-repeat;
 }
 
+.navbar .navbar__items .navbar__toggle {
+  margin-right: 16px;
+}
+
+.navbar .navbar__items .navbar__toggle svg path {
+  stroke: #eee;
+}
+.navbar .navbar__sidebar {
+  background-color: #14131a;
+}
+.navbar .navbar__sidebar .navbar__sidebar__items .menu .menu__list .menu__list-item .menu__link {
+  margin-left: 12px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #eee;
+}
+
+.menu.menu--responsive .button {
+  border: 0;
+  background-color: #14131a;
+}
+.menu.menu--responsive .button svg path {
+  stroke: #eee;
+}
+
+.menu.menu--responsive.menu--show  {
+  background-color: #eee;
+}
+.menu.menu--responsive.menu--show .button {
+  background-color: #ddd;
+}
+
 /* fix: remove toggle - dark mode */
 .navbar .react-toggle {
   display: none !important;
+}
+
+@media screen and (max-width: 460px) {
+  .navbar > .navbar__inner > .navbar__items > .navbar__brand > strong {
+    display: none;
+  }
 }
