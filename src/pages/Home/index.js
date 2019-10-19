@@ -27,7 +27,10 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Neutron JS was born to help developers create new react projects with Redux + Redux Saga. ">
+      description="Neutron JS was born to help developers create new react projects with Redux + Redux Saga."
+      keywords="neutron, js, cli, javascript, react, native, redux, saga, duck, styled, components"
+      image="img/neutron-banner.png"
+    >
       <header className={classnames('hero', styles.heroBanner)}>
         <div className="container">
           <h1 className={classnames('hero__title', styles.title)}>{`Neutron JS was born to help developers create new react projects with `}
