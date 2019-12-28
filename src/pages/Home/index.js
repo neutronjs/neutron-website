@@ -60,7 +60,8 @@ function Home() {
                       <div
                         className={classnames('col col--12')}>
                         <div className={classnames("text--center", styles.neutronInfo)}>
-                          <img className={styles.neutronLogo} src="/img/logo-black.svg" />
+                          <img className={styles.neutronLogoWhite} src="/img/logo-white.svg" />
+                          <img className={styles.neutronLogoBlack} src="/img/logo-black.svg" />
                           <p className={styles.neutronInstallInformation}>Install the Neutron JS CLI using Yarn or NPM:</p>
                           <code className={styles.neutronInstallCommand}>$ <b>yarn</b> global add <b>@neutronjs/cli</b></code>
                           <code className={styles.neutronInstallCommand}>$ <b>npm</b> install <b>@neutronjs/cli</b> -g</code>

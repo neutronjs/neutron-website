@@ -1,9 +1,17 @@
+:root {
+  --neutron-custom-blue: #37e;
+  --neutron-custom-green: #2c9;
+  --neutron-custom-purple: #99f;
+  --neutron-custom-red: #f44;
+  --neutron-custom-yellow: #ff9;
+}
+
 .terminal {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 440px;
-  background-color: #1f1e29;
+  background-color: var(--neutron-dark);
   box-sizing: border-box;
   padding: 16px;
   border-radius: 8px;
@@ -17,23 +25,23 @@
 .terminal>.header>span {
   height: 14px;
   width: 14px;
-  background-color: #ff9;
+  background-color: var(--neutron-custom-yellow);
   border-radius: 50%;
   margin-right: 10px;
 }
 
 .terminal>.header>span:first-child {
-  background-color: #f44;
+  background-color: var(--neutron-custom-red);
 }
 
 .terminal>.header>span:last-child {
-  background-color: #7f7;
+  background-color: var(--neutron-custom-green);
 }
 
 .terminal>.content {
   font-size: 14.6px;
   font-family: "Courier New", Courier, monospace;
-  color: #eeeeee;
+  color: var(--neutron-lighter);
   padding: 12px 0;
 }
 
@@ -43,7 +51,7 @@
 }
 
 .terminal>.content .dir {
-  color: #99f;
+  color: var(--neutron-custom-purple);
 }
 
 .terminal>.content .command {

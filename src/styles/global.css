@@ -1,3 +1,33 @@
+/**
+ * Settings
+ */
+ :root {
+  --neutron-white: #ffffff;
+  --neutron-lighter: #eeeeee;
+  --neutron-light: #dddddd;
+  --neutron-regular: #999999;
+  --neutron-dark: #1f1e29;
+  --neutron-darker: #14131a;
+  --neutron-black: #111111;
+
+  --ifm-color-primary: #22cc99;
+  --ifm-color-primary-dark: #22aa99;
+  --ifm-color-primary-darker: #119988;
+  --ifm-color-primary-darkest: #008877;
+  --ifm-color-primary-light: #22dd99;
+  --ifm-color-primary-lighter: #33ddaa;
+  --ifm-color-primary-lightest: #66ddbb;
+
+  --ifm-background-color: var(--neutron-lighter);
+  --ifm-background-surface-color: var(--neutron-dark);
+  /* --ifm-font-base-color: var(--ifm-color-content-inverse);
+  --ifm-font-base-color-inverse: var(--ifm-color-content); */
+}
+::selection {
+  background-color: var(--ifm-color-primary);
+  color: var(--neutron-lighter);
+}
+
 /* cyrillic-ext */
 @font-face {
   font-family: "Ubuntu";
@@ -69,15 +99,19 @@
     U+FEFF, U+FFFD;
 }
 
-/* your custom css */
+/* custom css */
+html[data-theme="dark"] {
+  --ifm-background-color: var(--neutron-darker);
+  --ifm-background-surface-color: var(--neutron-lighter);
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
-  background-color: #eee;
 }
 
 pre,
 pre button {
-  background-color: #1f1e29 !important;
+  background-color: var(--neutron-darker) !important;
 }
 
 pre {
@@ -90,24 +124,21 @@ a:hover {
 }
 
 .navbar {
-  background-color: #14131a;
+  background-color: var(--neutron-darker);
 }
 .navbar__brand strong {
-  color: #eeeeee;
+  color: var(--neutron-lighter);
   font-size: 20px;
   font-weight: 300;
 }
 .navbar__item.navbar__link,
 .navbar__item.navbar__link.navbar__link--active {
-  color: #eeeeee;
+  color: var(--neutron-lighter);
   font-size: 16px;
-}
-.navbar__item.navbar__link:hover {
-  color: #0078d4;
 }
 
 .footer.footer--dark {
-  background-color: #14131a;
+  background-color: var(--neutron-black);
   padding: 72px 0;
 }
 
@@ -147,36 +178,31 @@ a:hover {
 }
 
 .navbar .navbar__items .navbar__toggle svg path {
-  stroke: #eee;
+  stroke: var(--neutron-lighter);
 }
 .navbar .navbar__sidebar {
-  background-color: #14131a;
+  background-color: var(--neutron-darker);
 }
 .navbar .navbar__sidebar .navbar__sidebar__items .menu .menu__list .menu__list-item .menu__link {
   margin-left: 12px;
   font-size: 14px;
   text-transform: uppercase;
-  color: #eee;
+  color: var(--neutron-lighter);
 }
 
 .menu.menu--responsive .button {
   border: 0;
-  background-color: #14131a;
+  background-color: var(--neutron-darker);
 }
 .menu.menu--responsive .button svg path {
-  stroke: #eee;
+  stroke: var(--neutron-lighter);
 }
 
 .menu.menu--responsive.menu--show  {
-  background-color: #eee;
+  background-color: var(--neutron-lighter);
 }
 .menu.menu--responsive.menu--show .button {
-  background-color: #ddd;
-}
-
-/* fix: remove toggle - dark mode */
-.navbar .react-toggle {
-  display: none !important;
+  background-color: var(--neutron-light);
 }
 
 @media screen and (max-width: 460px) {
