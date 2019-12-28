@@ -58,14 +58,16 @@
 .neutronLogoWhite {
   width: 56%;
   max-width: 256px;
-}
-html[data-theme=""] .neutronLogoWhite {
   display: none;
+}
+html[data-theme="dark"] .neutronLogoWhite {
+  display: inherit;
 }
 
 .neutronLogoBlack {
   width: 56%;
   max-width: 256px;
+  display: inherit;
 }
 html[data-theme="dark"] .neutronLogoBlack {
   display: none;

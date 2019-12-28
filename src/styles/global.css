@@ -178,10 +178,10 @@ a:hover {
 .navbar .navbar__items .navbar__toggle svg path {
   stroke: var(--neutron-lighter);
 }
-.navbar .navbar__sidebar {
+.navbar .navbar-sidebar {
   background-color: var(--neutron-darker);
 }
-.navbar .navbar__sidebar .navbar__sidebar__items .menu .menu__list .menu__list-item .menu__link {
+.navbar .navbar-sidebar .navbar-sidebar__items .menu .menu__list .menu__list-item .menu__link {
   margin-left: 12px;
   font-size: 14px;
   text-transform: uppercase;
@@ -198,6 +198,9 @@ a:hover {
 
 .menu.menu--responsive.menu--show  {
   background-color: var(--neutron-lighter);
+}
+html[data-theme="dark"] .menu.menu--responsive.menu--show  {
+  background-color: var(--neutron-dark);
 }
 .menu.menu--responsive.menu--show .button {
   background-color: var(--neutron-light);
