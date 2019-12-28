@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import withBaseUrl from '@docusaurus/withBaseUrl';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 import api from '../../services/api';
@@ -28,7 +28,7 @@ function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="Neutron JS was born to help developers create new react projects with Redux + Redux Saga."
-      keywords="neutron, js, cli, javascript, react, native, redux, saga, duck, styled, components"
+      keywords={['neutron', 'js', 'cli', 'javascript', 'react', 'native', 'redux', 'saga', 'duck', 'styled', 'components']}
       image="img/neutron-banner.png"
     >
       <header className={classnames('hero', styles.heroBanner)}>
@@ -42,7 +42,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={withBaseUrl('docs/introduction/getting-started')}>
+              to={useBaseUrl('docs/introduction/getting-started')}>
               Get Started
             </Link>
           </div>

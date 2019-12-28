@@ -20,8 +20,6 @@
 
   --ifm-background-color: var(--neutron-lighter);
   --ifm-background-surface-color: var(--neutron-dark);
-  /* --ifm-font-base-color: var(--ifm-color-content-inverse);
-  --ifm-font-base-color-inverse: var(--ifm-color-content); */
 }
 ::selection {
   background-color: var(--ifm-color-primary);
