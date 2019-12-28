@@ -67,6 +67,9 @@ export const StyledContainer = styled.div`
 
 ## Connecting the Page with Store
 
+> Consider using the `useSelector` and `useDispatch` hooks.  
+> To learn more, check <a href="https://react-redux.js.org/api/hooks" target="_blank">React Redux - Hooks</a> and skip next steps.
+
 To connect the page with store, you should import these references on the `index.js` file:
 
 ```js

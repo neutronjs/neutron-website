@@ -109,7 +109,7 @@ body {
 
 pre,
 pre button {
-  background-color: var(--neutron-darker) !important;
+  background-color: var(--neutron-dark) !important;
 }
 
 pre {
@@ -201,6 +201,10 @@ a:hover {
 }
 .menu.menu--responsive.menu--show .button {
   background-color: var(--neutron-light);
+}
+
+.navbar .react-toggle {
+  margin: 0 12px;
 }
 
 @media screen and (max-width: 460px) {

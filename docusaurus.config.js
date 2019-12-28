@@ -40,10 +40,10 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      logo: {
-        alt: "Facebook Open Source Logo",
-        src: "https://docusaurus.io/img/oss_logo.png"
-      },
+      // logo: {
+      //   alt: "Open Source Logo",
+      //   src: "/static/img/open-source.svg"
+      // },
       copyright: `Copyright © ${new Date().getFullYear()} Neutron JS.`
     }
   },
