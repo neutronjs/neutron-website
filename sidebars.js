@@ -8,11 +8,11 @@
 module.exports = {
   docs: {
     Introduction: ["introduction/getting-started"],
-    Features: [
-      "features/add-component",
-      "features/add-duck",
-      "features/add-page",
-      "features/add-saga"
+    "Commands": [
+      "commands/add-component",
+      "commands/add-duck",
+      "commands/add-page",
+      "commands/add-saga"
     ],
     Community: ["community/contributing"]
   }

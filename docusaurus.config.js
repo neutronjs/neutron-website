@@ -40,12 +40,12 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      // logo: {
-      //   alt: "Open Source Logo",
-      //   src: "/static/img/open-source.svg"
-      // },
+      // logo: { alt: "Open Source Logo", src: "/static/img/open-source.svg" },
       copyright: `Copyright © ${new Date().getFullYear()} Neutron JS.`
-    }
+    },
+    gtag: { // Google Analytics
+      trackingID: 'UA-155255497-1',
+    },
   },
   presets: [
     [
