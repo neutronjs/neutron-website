@@ -14,6 +14,6 @@ module.exports = {
       'commands/add-page',
       'commands/add-saga',
     ],
-    Community: ['community/contributing'],
+    Community: ['community/contributing', 'community/code-of-conduct'],
   },
 };

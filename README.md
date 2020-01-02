@@ -1,31 +1,36 @@
-# Neutron JS - Documentation
+# Neutron JS - Website
 
 This website is built using Docusaurus v2, a modern static website generator.
 
-### Installation
+[![Build Status](https://travis-ci.org/neutronjs/neutron-website.svg?branch=master)](https://travis-ci.org/neutronjs/neutron-website)
 
-```
-$ yarn
-```
+<br/>
 
-### Local Development
+## ‍👨🏽‍💻 What is Neutron JS?
 
-```
-$ yarn start
-```
+[Neutron](https://www.neutronjs.com/) is a CLI developed to help developers create new react projects with [Redux](https://redux.js.org/) + [Redux Saga](https://redux-saga.js.org/) and offers well-structured code standardization.
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+<br/>
 
-### Build
+## 📃 Contributing
 
-```
-$ yarn build
-```
+Thanks for your interest on our project. Take a moment to read our guidelines:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- [Contributing](https://www.neutronjs.com/docs/community/contributing)
+- [Code of Conduct](https://www.neutronjs.com/docs/community/code-of-conduct)
 
-<br />
+<br/>
+
+## Contact
+
+We have a few channels for contact:
+
+- Email: [team@neutronjs.com](mailto:team@neutronjs.com)
+- [GitHub Issues](https://github.com/neutronjs/neutron-website/issues)
+
+<br/>
 
 ## 📃 License
 
 MIT © [Neutron JS](http://www.neutronjs.com/)
+

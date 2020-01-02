@@ -23,7 +23,7 @@ module.exports = {
       links: [
         {
           to: 'docs/introduction/getting-started',
-          label: 'Documentation',
+          label: 'Docs',
           position: 'left',
         },
         {
