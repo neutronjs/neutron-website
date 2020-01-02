@@ -24,11 +24,11 @@ function NeutronTerminal({ version }) {
         </p>
         <span className={styles.commandResult}>
           {printDivider()}
-          <span> _ _ _ _ ____</span>
-          <span>|:\ | | ___ _ _|:|_ _ __ ___ _ __ | /:___|</span>
-          <span>| \| |/ _ \ | | | __| &apos;__/ _ \| &apos;_ \ _ | \___ \</span>
-          <span>| |\ | __/ |_| | |_| | | (_) | | | |:|_| |___) |</span>
-          <span>|_| \_|\___|\__,_|\__|_| \___/|_| |_|\___/|____/</span>
+          <span>{String.raw` _   _            _                       _ ____  `}</span>
+          <span>{String.raw`|:\ | | ___ _   _|:|_ _ __ ___  _ __     | /:___| `}</span>
+          <span>{String.raw`|  \| |/ _ \ | | | __| '__/ _ \| '_ \ _  | \___ \ `}</span>
+          <span>{String.raw`| |\  |  __/ |_| | |_| | | (_) | | | |:|_| |___) |`}</span>
+          <span>{String.raw`|_| \_|\___|\__,_|\__|_|  \___/|_| |_|\___/|____/ `}</span>
           {printNewLine()}
           <span style={{ color: 'var(--neutron-custom-green)' }}>
             {`React & React Native Flux Architecture CLI ${version}`}
