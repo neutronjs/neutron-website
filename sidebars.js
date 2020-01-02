@@ -7,13 +7,13 @@
 
 module.exports = {
   docs: {
-    Introduction: ["introduction/getting-started"],
-    "Commands": [
-      "commands/add-component",
-      "commands/add-duck",
-      "commands/add-page",
-      "commands/add-saga"
+    Introduction: ['introduction/getting-started'],
+    Commands: [
+      'commands/add-component',
+      'commands/add-duck',
+      'commands/add-page',
+      'commands/add-saga',
     ],
-    Community: ["community/contributing"]
-  }
-}
+    Community: ['community/contributing'],
+  },
+};
