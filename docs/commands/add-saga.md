@@ -24,9 +24,9 @@ After the execution, this command will create a new file in `./src/store/sagas` 
 ```js
 /* #FILE: ./src/store/sagas/tools.js */
 import { call, put } from 'redux-saga/effects';
-import api from '../../services/api';
+import api from '@/services/api';
 
-import ToolsActions from '../ducks/tools';
+import ToolsActions from '@/store/ducks/tools';
 
 export function* getToolsRequest() {
   try {
@@ -50,7 +50,7 @@ This step is very important to register your `sagas` to listen all calls related
 /* #FILE: ./src/store/ducks/sagas.js */
 import { all, takeLatest } from 'redux-saga/effects';
 
-import { ToolsTypes } from '../ducks/tools'; // example
+import { ToolsTypes } from '@/store/ducks/tools'; // example
 import { getToolsRequest } from './tools'; // example
 
 export default function* rootSaga() {

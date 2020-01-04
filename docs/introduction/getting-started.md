@@ -44,18 +44,18 @@ Utils:
 To create a new project, you must use command with this format:
 
 ```shell
-neutron create <appName> <platform>
+neutron create <appName> <technology>
 ```
 
-Available platforms:
+Available technologies:
 
-- `--web`<small>: create a new project with <b>React JS</b></small>
-- `--mobile`<small>: create a new project with <b>React Native</b></small>
+- `--react`<small>: create a new project with <b>React JS</b></small>
+- `--react-native`<small>: create a new project with <b>React Native</b></small>
 
 #### Usage example:
 
 ```shell
-neutron create my-app --web
+neutron create my-app --react
 ```
 
 After a while you will see the success message and be able to start the application with a development server using:

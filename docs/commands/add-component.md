@@ -10,7 +10,7 @@ To create a new component, you need to stay at the root of the project and enter
 neutron add:component <componentName>
 ```
 
-You don't need to inform the platform because the CLI read your `package.json` to identify the project type. This is awesome, isn't it?
+You don't need to inform the `technology` because the CLI read your `package.json` to identify the project type. This is awesome, isn't it?
 
 
 ## Usage command example
@@ -41,7 +41,7 @@ export default function Custom() {
 /* #FILE: ./src/components/CustomComponent/styles.js */
 import styled from 'styled-components';
 
-import colors from '../../styles/colors';
+import colors from '@/styles/colors';
 
 export const StyledContainer = styled.div`
   align-items: center;

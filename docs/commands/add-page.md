@@ -12,7 +12,7 @@ To create a new page, you need to stay at the root of the project and enter this
 neutron add:page <pageName>
 ```
 
-You don't need to inform the platform because the CLI reads your `package.json` to identify the project type. This is awesome, isn't it?
+You don't need to inform the `technology` because the CLI reads your `package.json` to identify the project type. This is awesome, isn't it?
 
 
 ## Usage command example
@@ -51,7 +51,7 @@ export default Tools;
 /* #FILE: ./src/pages/Tools/styles.js */
 import styled from 'styled-components';
 
-import colors from '../../styles/colors';
+import colors from '@/styles/colors';
 
 export const StyledContainer = styled.div`
   background-color: ${colors.background};
@@ -67,7 +67,7 @@ export const StyledContainer = styled.div`
 
 ## Connecting the Page with Store
 
-> Consider using the `useSelector` and `useDispatch` hooks.  
+> Consider using the `useSelector` and `useDispatch` hooks.
 > To learn more, check <a href="https://react-redux.js.org/api/hooks" target="_blank">React Redux - Hooks</a> and skip next steps.
 
 To connect the page with store, you should import these references on the `index.js` file:
@@ -75,7 +75,7 @@ To connect the page with store, you should import these references on the `index
 ```js
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import ToolsActions from '../../store/ducks/tools'; // example
+import ToolsActions from '@/store/ducks/tools'; // example
 ```
 
 The next step is map the `state` and `dispatchs` to properties of the page and replace `export default Tools`, just like this:
@@ -86,7 +86,7 @@ const mapStateToProps = state => ({
   tools: state.tools, // example
 });
 
-const mapDispatchToProps = dispatch => 
+const mapDispatchToProps = dispatch =>
   bindActionCreators(ToolsActions, dispatch); // example
 
 export default connect(
