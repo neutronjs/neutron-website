@@ -10,8 +10,8 @@
  * and scoped locally.
  */
 .heroBanner {
-  background-color: var(--neutron-dark);
-  color: var(--neutron-lighter);
+  background-color: var(--neutron-color-dark);
+  color: var(--neutron-color-lighter);
   padding: 128px;
   text-align: center;
   position: relative;
@@ -27,13 +27,13 @@
 }
 
 .getStarted {
-  color: var(--neutron-lighter) !important;
+  color: var(--neutron-color-lighter) !important;
   font-size: 24px;
   padding: 16px 36px;
 }
 
 .getStarted:hover {
-  color: var(--neutron-dark) !important;
+  color: var(--neutron-color-dark) !important;
 }
 
 .buttons {
@@ -95,7 +95,7 @@ html[data-theme="dark"] .neutronLogoBlack {
   .heroBanner {
     padding: 2rem;
   }
-  
+
   .title {
     font-size: 2.5rem !important;
   }

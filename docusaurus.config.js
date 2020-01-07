@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+const [latestVersion] = require('./versions.json');
+
 module.exports = {
   title: 'Neutron JS',
   tagline: 'The best tool to speed up your react project! 🚀',
@@ -21,6 +23,17 @@ module.exports = {
         src: 'img/logo-white.svg',
       },
       links: [
+        {
+          to: 'versions',
+          label: `v${latestVersion}`,
+          position: 'left',
+          style: {
+            whiteSpace: 'nowrap',
+            padding: '0.25rem 0.5rem 0.2rem 0.25rem',
+            fontSize: 'calc(0.9 * var(--ifm-font-size-base))',
+            textDecoration: 'underline',
+          },
+        },
         {
           to: 'docs/introduction/getting-started',
           label: 'Docs',

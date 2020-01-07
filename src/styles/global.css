@@ -2,13 +2,13 @@
  * Settings
  */
  :root {
-  --neutron-white: #ffffff;
-  --neutron-lighter: #eeeeee;
-  --neutron-light: #dddddd;
-  --neutron-regular: #999999;
-  --neutron-dark: #1f1e29;
-  --neutron-darker: #14131a;
-  --neutron-black: #111111;
+  --neutron-color-regular: #999999;
+  --neutron-color-dark: #1f1e29;
+  --neutron-color-darker: #14131a;
+  --neutron-color-darkest: #111111;
+  --neutron-color-light: #dddddd;
+  --neutron-color-lighter: #eeeeee;
+  --neutron-color-lightest: #ffffff;
 
   --ifm-color-primary: #22cc99;
   --ifm-color-primary-dark: #22aa99;
@@ -18,12 +18,12 @@
   --ifm-color-primary-lighter: #33ddaa;
   --ifm-color-primary-lightest: #66ddbb;
 
-  --ifm-background-color: var(--neutron-lighter);
-  --ifm-background-surface-color: var(--neutron-dark);
+  --ifm-background-color: var(--neutron-color-lighter);
+  --ifm-background-surface-color: var(--neutron-color-dark);
 }
 ::selection {
   background-color: var(--ifm-color-primary);
-  color: var(--neutron-lighter);
+  color: var(--neutron-color-lighter);
 }
 
 /* cyrillic-ext */
@@ -99,8 +99,8 @@
 
 /* custom css */
 html[data-theme="dark"] {
-  --ifm-background-color: var(--neutron-darker);
-  --ifm-background-surface-color: var(--neutron-lighter);
+  --ifm-background-color: var(--neutron-color-darker);
+  --ifm-background-surface-color: var(--neutron-color-lighter);
 }
 
 body {
@@ -109,7 +109,7 @@ body {
 
 pre,
 pre button {
-  background-color: var(--neutron-dark) !important;
+  background-color: var(--neutron-color-dark) !important;
 }
 
 pre {
@@ -122,21 +122,21 @@ a:hover {
 }
 
 .navbar {
-  background-color: var(--neutron-darker);
+  background-color: var(--neutron-color-darkest);
 }
 .navbar__brand strong {
-  color: var(--neutron-lighter);
+  color: var(--neutron-color-lighter);
   font-size: 20px;
   font-weight: 300;
 }
 .navbar__item.navbar__link,
 .navbar__item.navbar__link.navbar__link--active {
-  color: var(--neutron-lighter);
+  color: var(--neutron-color-lighter);
   font-size: 16px;
 }
 
 .footer.footer--dark {
-  background-color: var(--neutron-black);
+  background-color: var(--neutron-color-darkest);
   padding: 72px 0;
 }
 
@@ -176,34 +176,40 @@ a:hover {
 }
 
 .navbar .navbar__items .navbar__toggle svg path {
-  stroke: var(--neutron-lighter);
+  stroke: var(--neutron-color-lighter);
 }
 .navbar .navbar-sidebar {
-  background-color: var(--neutron-darker);
+  background-color: var(--neutron-color-darker);
 }
 .navbar .navbar-sidebar .navbar-sidebar__items .menu .menu__list .menu__list-item .menu__link {
   margin-left: 12px;
   font-size: 14px;
   text-transform: uppercase;
-  color: var(--neutron-lighter);
+  color: var(--neutron-color-lighter);
 }
 
 .menu.menu--responsive .button {
   border: 0;
-  background-color: var(--neutron-darker);
+  background-color: var(--neutron-color-darker);
 }
 .menu.menu--responsive .button svg path {
-  stroke: var(--neutron-lighter);
+  stroke: var(--neutron-color-lighter);
 }
 
 .menu.menu--responsive.menu--show  {
-  background-color: var(--neutron-lighter);
+  background-color: var(--neutron-color-lighter);
 }
 html[data-theme="dark"] .menu.menu--responsive.menu--show  {
-  background-color: var(--neutron-dark);
+  background-color: var(--neutron-color-dark);
 }
 .menu.menu--responsive.menu--show .button {
-  background-color: var(--neutron-light);
+  background-color: var(--neutron-color-light);
+}
+
+.badge.badge--info {
+  --ifm-badge-background-color: var(--ifm-color-primary-dark);
+  border-radius: 2px;
+  font-size: 14px;
 }
 
 .navbar .react-toggle {

@@ -1,9 +1,9 @@
 :root {
-  --neutron-custom-blue: #37e;
-  --neutron-custom-green: #2c9;
-  --neutron-custom-purple: #99f;
-  --neutron-custom-red: #f44;
-  --neutron-custom-yellow: #ff9;
+  --neutron-color-custom-blue: #37e;
+  --neutron-color-custom-green: #2c9;
+  --neutron-color-custom-purple: #99f;
+  --neutron-color-custom-red: #f44;
+  --neutron-color-custom-yellow: #ff9;
 }
 
 .terminal {
@@ -11,7 +11,7 @@
   flex-direction: column;
   width: 100%;
   height: 440px;
-  background-color: var(--neutron-dark);
+  background-color: var(--neutron-color-dark);
   box-sizing: border-box;
   padding: 16px;
   border-radius: 8px;
@@ -25,23 +25,23 @@
 .terminal>.header>span {
   height: 14px;
   width: 14px;
-  background-color: var(--neutron-custom-yellow);
+  background-color: var(--neutron-color-custom-yellow);
   border-radius: 50%;
   margin-right: 10px;
 }
 
 .terminal>.header>span:first-child {
-  background-color: var(--neutron-custom-red);
+  background-color: var(--neutron-color-custom-red);
 }
 
 .terminal>.header>span:last-child {
-  background-color: var(--neutron-custom-green);
+  background-color: var(--neutron-color-custom-green);
 }
 
 .terminal>.content {
   font-size: 14.6px;
   font-family: "Courier New", Courier, monospace;
-  color: var(--neutron-lighter);
+  color: var(--neutron-color-lighter);
   padding: 12px 0;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .terminal>.content .dir {
-  color: var(--neutron-custom-purple);
+  color: var(--neutron-color-custom-purple);
 }
 
 .terminal>.content .command {

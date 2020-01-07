@@ -7,7 +7,9 @@ function NeutronTerminal({ version }) {
   const printNewLine = () => <span> </span>;
 
   const printDivider = () => (
-    <span style={{ color: 'var(--neutron-regular)' }}>{'-'.repeat(63)}</span>
+    <span style={{ color: 'var(--neutron-color-regular)' }}>
+      {'-'.repeat(63)}
+    </span>
   );
 
   return (
@@ -30,14 +32,14 @@ function NeutronTerminal({ version }) {
           <span>{String.raw`| |\  |  __/ |_| | |_| | | (_) | | | |:|_| |___) |`}</span>
           <span>{String.raw`|_| \_|\___|\__,_|\__|_|  \___/|_| |_|\___/|____/ `}</span>
           {printNewLine()}
-          <span style={{ color: 'var(--neutron-custom-green)' }}>
+          <span style={{ color: 'var(--neutron-color-custom-green)' }}>
             {`React & React Native Flux Architecture CLI ${version}`}
           </span>
           {printNewLine()}
           {printDivider()}
           {printNewLine()}
           <span>For more information:</span>
-          <span style={{ color: 'var(--neutron-custom-blue)' }}>
+          <span style={{ color: 'var(--neutron-color-custom-blue)' }}>
             https://www.neutronjs.com
           </span>
           {printNewLine()}
